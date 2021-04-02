@@ -10,7 +10,7 @@
 
 ---
 ## Estrutura do projeto
-- A pasta [scripts](/tree/main/scripts) contém os scripts python construídos para a coleta de dados.
-- A pasta [datasets](/tree/main/datasets) contém todos os resultados de coletas dos scritps, além do merge das coletas representando o dataset final
-- A pasta [pesos](/tree/main/pesos) contém os pesos pré treinados.
-- A pasta [estatisticas](/tree/main/estatisticas) contem os resultados das avaliações dos modelos.
+- A pasta [scripts](tree/main/scripts) contém os scripts python construídos para a coleta de dados.
+- A pasta [datasets](tree/main/datasets) contém todos os resultados de coletas dos scritps, além do merge das coletas representando o dataset final
+- A pasta [pesos](tree/main/pesos) contém os pesos pré treinados.
+- A pasta [estatisticas](tree/main/estatisticas) contem os resultados das avaliações dos modelos.

@@ -12,7 +12,7 @@
 - [Estatísticas](#est)
 - [Relatório](#rel)
 - [Requerimentos](#req)
-- [Executando o projeto]
+- [Executando o projeto](#exec)
 
 ---
 

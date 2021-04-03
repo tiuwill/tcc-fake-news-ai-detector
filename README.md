@@ -36,7 +36,7 @@
 ## Relatório:
 - [TCC.ipynb](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/TCC%20Final.ipynb) é o notebook com toda a parte de engenharia de dados, visualizações e construção do modelo.
 ----
-## Requerimentos
+## <a name="req">Requerimentos</a>
 
 - Os requerimentos e bibliotecas necessárias para execução deste projeto podem ser encontrados através do arquivo [requirements.txt](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/requirements.txt)
 
@@ -58,3 +58,9 @@ conda activate fakedetector
 ```
 conda install --name fakedetector --file requirements.txt
 ```
+
+---- 
+
+## Executando o projeto
+
+- Primeiramente instale os [requerimentos](#req)

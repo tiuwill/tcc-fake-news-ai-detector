@@ -38,6 +38,8 @@
     - [fakebr-corpus.csv](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/datasets/fakebr-corpus.csv) é resultante do processamento do script [scrap_github_fakebr_corpus](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/scritps/scrap_github_fakebr_corpus.py)
     - [todos_os_dados.csv](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/datasets/todos_os_dados.csv) é resultante do processamento do script [etl.py](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/scritps/etl.py)
 
+    [Descritivo dos datasets](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/Dataset_Description.md)
+
 
 ## <a name="pesos">Pesos:</a>
 - A pasta [pesos](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/pesos) contém os pesos dos modelos já treinados. Os mesmos podém ser entendidos através da visualização do relatório.

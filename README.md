@@ -64,3 +64,26 @@ conda install --name fakedetector --file requirements.txt
 ## Executando o projeto
 
 - Primeiramente instale os [requerimentos](#req)
+- Inicie o jupyter notebook na pasta do projeto onde está o arquivo `TCC.ipynb`
+
+```
+jupyter notebook
+```
+
+
+- O navegador será aberto, clique no arquivo `TCC.ipynb`
+
+![jupyter](img/jupyter.png)
+
+### Observação
+
+- O notebook pode ser executado do início ao fim executando todas as células, ou céclula a célula com o comando `Shift+Enter` ou simplesmente clicar no botão `Run`
+
+
+![jupyter](img/jupytercel.png)
+
+- As células de treinamento de modelo, podem demorar um pouco, caso queira apenas testar e validar os modelos, basta carregar os pesos do modelo.
+
+- Todos os modelos foram exportados e possuem uma célula para carregar o modelo treinado, possibilitando pular a parte de treinamento.
+
+![jupyter](img/import.png)

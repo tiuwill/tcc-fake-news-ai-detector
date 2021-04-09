@@ -18,7 +18,7 @@
 
 ##  <a name="cont">Contextualização</a>
 
-- Este projeto contempla o processo de construção de alguns modelos de machine learning e deep learning para detecção de fake news contemplando o porcesso de coleta dos dados, a limpeza e processamento dos dados (Feature Engeering), a visualização e processo de construção das hipóteses e construção e testes em variados modelos.
+- Este projeto contempla o processo de construção de alguns modelos de machine learning e deep learning para detecção de fake news contemplando o processo de coleta dos dados, a limpeza e processamento dos dados (Feature Engineering), a visualização e processo de construção das hipóteses e construção e testes em variados modelos.
 
 ---
 ## <a name="est">Estrutura do projeto</a>
@@ -45,7 +45,7 @@
 - A pasta [pesos](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/pesos) contém os pesos dos modelos já treinados. Os mesmos podém ser entendidos através da visualização do relatório.
 
 ## <a name="est">Estatísticas</a>
-- A pasta [estatisticas](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/estatisticas) contem os resultados das avaliações dos modelos. Os mesmos podém ser entendidos através da visualização do relatório.
+- A pasta [estatisticas](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/estatisticas) contem os resultados das avaliações dos modelos. Os mesmos podem ser entendidos através da visualização do relatório.
 
 ## <a name="rel">Relatório:</a>
 - [TCC.ipynb](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/TCC%20Final.ipynb) é o notebook com toda a parte de engenharia de dados, visualizações e construção do modelo.
@@ -78,12 +78,21 @@ conda install --name fakedetector --file requirements.txt
 ## <a name="exec">Executando o projeto</a>
 
 - Primeiramente instale os [requerimentos](#req)
+
+
+### (Opicional) Execite o processo de ETL
+
+- o processo de ETL é opcional visto que já foi executado e os arquivos se encontram na pasta [datasets](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/datasets). Porém caso queira ver o funcionamento, basta executar o arquivo [etl.py](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/scritps/etl.py) que pode ser ecnontrado na pasta de [scripts](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/scritps)
+
+```python
+python etl.py
+```
+
 - Inicie o jupyter notebook na pasta do projeto onde está o arquivo `TCC.ipynb`
 
 ```
 jupyter notebook
 ```
-
 
 - O navegador será aberto, clique no arquivo `TCC.ipynb`
 
@@ -91,7 +100,7 @@ jupyter notebook
 
 ### Observação
 
-- O notebook pode ser executado do início ao fim executando todas as células, ou céclula a célula com o comando `Shift+Enter` ou simplesmente clicar no botão `Run`
+- O notebook pode ser executado do início ao fim executando todas as células, ou célula a célula com o comando `Shift+Enter` ou simplesmente clicar no botão `Run`
 
 
 ![jupyter](img/jupytercel.png)
@@ -100,4 +109,4 @@ jupyter notebook
 
 - Todos os modelos foram exportados e possuem uma célula para carregar o modelo treinado, possibilitando pular a parte de treinamento.
 
-![jupyter](img/import.png)
+![jupyter](img/redeimport.png)

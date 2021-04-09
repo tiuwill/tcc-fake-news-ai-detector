@@ -36,7 +36,7 @@ def start():
     """
     page_index = 1
     BASE_URL = 'https://piaui.folha.uol.com.br/lupa/page/'
-    FILE_NAME = 'agencia_lupa.csv'
+    FILE_NAME = '../datasets/agencia_lupa.csv'
 
     dados = []
 

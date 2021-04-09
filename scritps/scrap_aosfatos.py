@@ -39,7 +39,7 @@ def start():
 
     pageIndex = 1
     BASE_URL = 'https://www.aosfatos.org'
-    FILE_NAME = 'aosfatos.csv'
+    FILE_NAME = '../datasets/aosfatos.csv'
 
     dados = []
     class_words = ['falso', 'verdadeiro', 'distorcido', 'impreciso']

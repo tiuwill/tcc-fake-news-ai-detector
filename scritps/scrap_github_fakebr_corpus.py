@@ -64,7 +64,7 @@ def start():
     META_FAKE_DIR = './fakebr/full_texts/fake-meta-information'
     TRUE_DIR = './fakebr/full_texts/true'
     META_TRUE_DIR = './fakebr/full_texts/true-meta-information'
-    FILE_NAME = 'fakebr-corpus.csv'
+    FILE_NAME = '../datasets/fakebr-corpus.csv'
 
     """Clonando repositório
 
@@ -81,12 +81,7 @@ def start():
     true_news_files = os.listdir(TRUE_DIR)
 
 
-    """Executa leitura
-
-       Faz a leitura dos arquivos e recebe o conteúdo de todas as notícias presentes no diretórios.
-       As listas retornadas serão concatenadas para exportação
-    """  
-    fake_data = get_data_from_file_list(fake_news_files, 'Falso', FAKE_DIR, META_FAKE_DIR)
+    """Executa leitura..'s_files, 'Falso', FAKE_DIR, META_FAKE_DIR)
     true_data = get_data_from_file_list(true_news_files, 'Verdadeiro', TRUE_DIR, META_TRUE_DIR)
 
     all_data = fake_data + true_data

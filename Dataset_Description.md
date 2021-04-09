@@ -1,6 +1,6 @@
 # Datasets
 
-Detalhamento e descrição dos arquivos resultantes do webscrapping e do dataset completo
+Detalhamento e descrição dos arquivos resultantes do web scraping e do dataset completo
 
 ---
 

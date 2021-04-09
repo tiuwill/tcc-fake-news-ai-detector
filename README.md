@@ -48,7 +48,8 @@
 - A pasta [estatisticas](https://github.com/tiuwill/tcc-fake-news-ai-detector/tree/main/estatisticas) contem os resultados das avaliações dos modelos. Os mesmos podem ser entendidos através da visualização do relatório.
 
 ## <a name="rel">Relatório:</a>
-- [TCC.ipynb](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/TCC%20Final.ipynb) é o notebook com toda a parte de engenharia de dados, visualizações e construção do modelo.
+- [TCC.ipynb](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/TCC.ipynb) é o notebook com toda a parte de engenharia de dados, visualizações e construção do modelo.
+- Também disponível em [PDF](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/relatorios/TCC.pdf) e [HTML](https://github.com/tiuwill/tcc-fake-news-ai-detector/blob/main/relatorios/TCC.html), para quem deseja apenas ler sem utilizar o jupyter notebook.
 ----
 ## <a name="req">Requerimentos</a>
 
